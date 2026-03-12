@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 from telegram.error import BadRequest
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8439858305:AAGmLWjRCXvFFoM5QRaqOna4hSkooq-xtao")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8439858305:AAGc5hSPJICuim13oFI_n91mX9s1FEfDiYc")
 try:
     ADMIN_IDS = [int(x.strip()) for x in os.environ.get("ADMIN_IDS", "8373846582").split(",") if x.strip()]
 except:
